@@ -10,5 +10,37 @@
     <a href="inf_gen.html"><h2>Información General</h2></a>
     <a href="plantitas.html"><h2>Plantas</h2></a>
     <a href="macetas.html"><h2>Macetas y Tierra</h2></a>
+    <form action="#" method="post">
+        <fieldset>
+            <legend>¡Queremos saber tu opinión!</legend>
+            <label for="nom">Su nombre y apellido:</label>
+            <input type="text" name="Nombre" id="nom"> <br>
+            <label for="opc">Por favor escoja una opción:</label> <br>
+            <input type="radio" name="opciones" id="op" value="Soy principiante con las plantas :|">
+            <label for="op">Soy principiante con la plantas :|</label> <br>
+            <input type="radio" name="opciones" id="op2" value="Se algo sobre plantas :)">
+            <label for="op2">Se algo sobre plantas :)</label> <br>
+            <input type="radio" name="opciones" id="op3" value="Soy un experto en plantas :D">
+            <label for="op3">Soy un experto en plantas :D</label> <br>
+            <label for="A">¿Que le gusta más plantar en su jardín?</label> <br>
+            <input type="checkbox" name="op1" id="op1" value="Flores">
+            <label for="op1">Flores</label> <br>
+            <input type="checkbox" name="op2" id="op2" value="Frutas">
+            <label for="op2">Frutas/Verduras</label> <br>
+            <label for="select">¿Cuál es la planta que más te gusta del sitio?</label>
+            <select name="a" id="select">
+                <option value="Elige una planta">Elige una planta</option>
+                <option value="Hortensia">Hortensia</option>
+                <option value="Rosa">Rosa</option>
+                <option value="Ceibo">Ceibo</option>
+                <option value="Palta">Palta</option>
+                <option value="Frutilla">Frutilla</option>
+                <option value="Limón">Limón</option>
+            </select> <br>
+            <label for="texto">¿Tiene alguna recomendación para nosotros?</label> <br>
+            <textarea name="areadtex" id="texto" cols="30" rows="10"></textarea>
+        </fieldset>
+        <input type="submit" name="guardar" id="guardar" value="Enviar">
+    </form>
 </body>
 </html>
