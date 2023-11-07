@@ -1,5 +1,6 @@
 body{
     background-color: forestgreen;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 a{
@@ -22,4 +23,19 @@ a{
 }
 .foto{
     float: left;
+}
+.form{
+    height: 520px;
+    width: 470px;
+    background-color: rgb(15, 133, 15);
+    margin: 10px;
+    padding: 10px;
+    text-wrap:balance;
+}
+.fieldset{
+    margin: 20px;
+    padding: 20px;
+    height: 400px;
+    width: 380px;
+    color: black;
 }
