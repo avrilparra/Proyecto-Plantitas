@@ -1,0 +1,19 @@
+a{
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+}
+body{
+    background: rgb(51, 221, 51);
+    margin: 0;
+    padding: 0;
+}
+th{
+    border: 1px solid black;
+}
+tr{
+    border: 1px solid black;
+}
+td{
+    border: 1px solid black;
+}
