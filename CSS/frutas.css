@@ -1,10 +1,7 @@
 .centrar{
     text-align: center;
 }
-.AlinearTexto{
-    margin-left: 700px;
-    float: left;
+.main{
+    display: flex;
 }
-.AlinearFoto{
-    float: left;
-}
+
