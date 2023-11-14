@@ -11,10 +11,6 @@ body{
 .main{
     display: flex;
 }
-.tablas{
-    margin-left: 200px;
-    margin-bottom: 20px;
-}
 
 .alineartexto{
     margin-left: 20px;
