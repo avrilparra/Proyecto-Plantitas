@@ -29,7 +29,7 @@ a{
 form{
     align-items: center;
     width: 470px;
-    background-color: rgba(20, 161, 20, 0.651);
+    background-color: rgb(151, 247, 151);
     margin: 18px;
     padding: 20px;
     text-wrap:balance;
@@ -62,7 +62,7 @@ fieldset label, fieldset input, fieldset textarea, fieldset select{
     display: grid;
 }
 .mmain{
-    margin-top: 50px;
+    margin-top: 5px;
     display: flex;
     align-items: center;
 }
@@ -72,5 +72,9 @@ fieldset label, fieldset input, fieldset textarea, fieldset select{
 }
 .main-otros{
     margin-left: 20px;
+    margin-right: 20px;
     text-align: justify;
+}
+aside{
+    align-content: center;
 }
