@@ -1,6 +1,8 @@
 body{
-    background-color: rgba(0, 109, 0, 0.733);
+    background: rgb(151, 247, 151);
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 a{
@@ -13,7 +15,7 @@ a{
     padding: none;
     font-size: 40px;
     height: 90px;
-    background-color: darkgreen;
+    background-color: rgb(133, 201, 133);
 
 }
 .nav{
@@ -25,8 +27,9 @@ a{
     float: left;
 }
 form{
+    align-items: center;
     width: 470px;
-    background-color: rgba(15, 133, 15, 0.651);
+    background-color: rgba(20, 161, 20, 0.651);
     margin: 18px;
     padding: 20px;
     text-wrap:balance;
@@ -46,4 +49,28 @@ form{
 
 fieldset label, fieldset input, fieldset textarea, fieldset select{
     margin: 8px 0;
+}
+.izquierda{
+    float: left;
+    display: grid;
+    margin-left: 150px;
+    margin-right: 60px;
+
+}
+.derecha{
+    float: right;
+    display: grid;
+}
+.mmain{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+}
+.main-index{
+    text-align: center;
+    margin-top: 50px;
+}
+.main-otros{
+    margin-left: 20px;
+    text-align: justify;
 }
