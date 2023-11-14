@@ -25,5 +25,5 @@ body{
 
 .imagen{
     margin-left: 80px;
-    
+    display: flex;
 }
