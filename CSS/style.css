@@ -78,3 +78,6 @@ fieldset label, fieldset input, fieldset textarea, fieldset select{
 aside{
     align-content: center;
 }
+.a:hover{
+    text-shadow: 4px 4px rgba(4, 58, 9, 0.356);
+}
