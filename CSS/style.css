@@ -45,7 +45,7 @@ form{
     padding: 20px;
     width: 365px;
     border-color:green ;
-    border-style:double;
+    border-style:dotted;
     border-width: 8px;
 }
 .bt_enviar{
