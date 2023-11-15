@@ -81,3 +81,22 @@ aside{
 .a:hover{
     text-shadow: 4px 4px rgba(4, 58, 9, 0.356);
 }
+footer{
+    height: 200px;
+    background-color:  rgb(118, 241, 118) ;
+}
+.division_d{
+    float: left;
+    display: grid;
+    height: 600px;
+}
+.division_iz{
+    float: right;
+    display: grid;
+    height: 150px;
+}
+.div{
+    display: flex;
+    width: 600px;
+    height: 800px;
+}
