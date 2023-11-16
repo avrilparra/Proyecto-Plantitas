@@ -11,10 +11,16 @@ body{
 .main{
     display: flex;
 }
-
+.separar{
+    float: right;
+    display: flex;
+}
+.alineartextoDOS{
+    margin-left: 20px;
+    margin-right: 10px;
+}
 .alineartexto{
     margin-left: 20px;
-    width: 800px;
     text-align:justify;
 }
 
