@@ -1,0 +1,16 @@
+.divfoot{
+    background: rgb(155, 243, 155);
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+}
+.redes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.fotofoot{
+    width: 30px;
+    margin-left: 10px;
+}
